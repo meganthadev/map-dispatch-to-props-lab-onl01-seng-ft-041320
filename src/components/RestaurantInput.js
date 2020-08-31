@@ -51,4 +51,4 @@ export class RestaurantInput extends Component {
 
 
 
-export default RestaurantInput connect(null, {addRestaurant}) (RestaurantInput)
+export default connect(null, {addRestaurant}) (RestaurantInput)
